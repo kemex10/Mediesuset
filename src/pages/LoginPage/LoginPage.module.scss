@@ -1,0 +1,56 @@
+#container {
+    margin-bottom: 1rem;
+
+    button {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        background-color: blue;
+        cursor: pointer;
+        padding: .5rem;
+        width: 25%;
+        align-self: center;
+        border: none;
+    }
+
+    > div {
+        width: 80%;
+        max-width: 1200px;
+        margin: auto;
+
+        > div {
+
+            h1 {
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+            > div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+
+                    input {
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.loggedin {
+    text-align: center;
+    
+    a {
+
+        button {
+            margin-left: .5rem;
+        }
+    }
+}
